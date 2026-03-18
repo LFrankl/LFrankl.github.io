@@ -1,19 +1,10 @@
-- name: Software Engineer Keywords
+- name: Languages
   keywords:
-      - Java
-      - C++
+      - Go
       - Python
-      - Design Patterns
 
-- name: Mobile Developer Keywords
+- name: Infrastructure
   keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - Kubernetes
+      - Docker
+      - gRPC

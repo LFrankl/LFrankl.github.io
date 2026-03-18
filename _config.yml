@@ -2,18 +2,18 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://LFrankl.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: LFrankl's Blog
+subtitle: ""
+description: "LFrankl's personal blog"
+keywords: LFrankl, blog
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2025
 # 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
+repository: LFrankl/LFrankl.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -39,8 +39,8 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
-        image_alt: 闷骚的程序员
+        enabled: false
+        image_alt: LFrankl
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -57,12 +57,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: 
-organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: LFrankl
+organization:
+organization_url:
+github_username: LFrankl
+location:
+email:
 
 # ---------------- #
 #    Navigation    #
@@ -184,10 +184,10 @@ beaudar:
     repo: mzlogin/blog-comments
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    repo: LFrankl/LFrankl.github.io
+    repo-id: # 请到 https://giscus.app/zh-CN 获取
     category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+    category-id: # 请到 https://giscus.app/zh-CN 获取
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
